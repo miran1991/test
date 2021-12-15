@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.banner{
+
+    width: 100%;
+    height: auto;
+    background-image: url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+
+
+.navbar{
+
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navbar img{
+
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    margin: 50px;
+    border-radius: 10px;
+
+}
+
+
+.navbar ul li{
+
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar ul li a{
+
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    margin: 0 1px;
+    font-size: 14px; 
+    color: black;   
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+
+.navbar ul li a:hover{
+
+    background-color: goldenrod;
+    border-radius: 10px;
+}
+
+.content{
+
+    margin-left: 10%;
+    margin-right: 10%;
+   
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 5% 0;
+ 
+}
+
+.col_1{
+
+    margin: 30px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+    
+}
+
+.col_1 h1{
+
+    color: black;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman';
+    text-transform:capitalize;
+}
+
+.col_1 p{
+
+     color: black;
+     font-family: 'Times New Roman';
+     font-size: 15px;
+     text-transform: capitalize;
+     margin: 15px 10px;
+}
+
+
+
+.col_1 img{
+
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 10px white;
+
+}
+
+.btn{
+
+    width: 150px;
+    height: 30px;
+    color: black;
+    background-color: goldenrod;
+    border-radius: 15px;
+    padding: 5px 10px;
+    transition: 1s;
+
+}
+
+.btn:hover{
+
+    width: 170px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.section_title{
+
+    margin-top: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    
+}
+
+.section_title h1{
+
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.secound_section{
+
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 20px 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.type {
+
+    width: 160px;
+    height: 220px;
+    margin: 15px 20px;
+    padding: 10px 5px;
+    box-shadow: 0 0 20px 0 goldenrod;
+}
+
+.type img{
+
+    width: 90%;
+    height: 80%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.type img:hover{
+
+    transform: translateY(-10px);
+}
+
+
+.type button{
+
+    width: 100px;
+    height: 25px;
+    background-color: goldenrod;
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 3px 10px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman';
+    text-transform: capitalize;
+    transition: 1s;
+    
+}
+
+.type button:hover{
+
+    background: transparent;
+    border: 2px solid goldenrod;
+}
+
+
+
+
+
+.footer{
+
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 50px ;
+    background-color: rgb(198, 207, 212);
+}
+
+.left{
+
+    width: 300px;
+    height: 150px;
+    padding: 40px 0;
+}
+
+.left h2{
+
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+}
+
+
+
+.right{
+
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.right img{
+
+    width: 30px;
+    height: 30px;
+    margin: 5px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.social_icon{
+
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+    border-radius: 5px;
+
+}
+
+.social_icon:hover{
+
+   
+    background-color: white;
+}
+
+.search{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search input{
+
+    width: 280px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 0;
+    font-size: 14px;
+    text-transform: capitalize;
+}
